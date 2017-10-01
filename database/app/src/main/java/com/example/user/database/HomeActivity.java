@@ -19,7 +19,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         mLogoutButton = (Button) findViewById(R.id.logoutbutton);
 
         mLogoutButton.setOnClickListener((this));
-
     }
 
     @Override
