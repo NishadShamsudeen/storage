@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
 
         if(StorageHandler.isChecked(this)){
-
-        }
+            startActivity(new Intent(this, HomeActivity.class));
+            finish();
+             }
         setContentView(R.layout.activity_main);
 
         mUsernameEditText = (EditText) findViewById(R.id.usernameEditText);
